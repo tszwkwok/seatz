@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Seatz - Online Seat Tracking</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="topnav">
+      <a href="home.html">Home</a>
+    </div>
+    <img src='images/tram.jpg' style="width:100%;margin-bottom:-5px">
+
+    <div class="contentMobile"  style="background-color:#ccc">
+
+<!-- Original
+<button class="collapsible">Select Route</button>
+<div class="collapseContent">
+  <button class="collapsible">30</button>
+  <div class="collapseContent">
+    <h4><a href="index.html">Bus 30 to UTC (#ID: 18A)</a></h4>
+  </div>
+</div>
+-->
+            <h1 align="middle">Live Tracker</h1>
+
+            <h2 align="right">Trams</h2>
+
+            <button class="collapsible">Select Route</button>
+            <div class="collapseContent">
+              <button class="collapsible" style="color:Blue;">Blue Line</button>
+              <div class="collapseContent">
+                <h4>No trams on this route within the next 60 minutes</h4>
+              </div>
+              <button class="collapsible" style="color:Green;">Green Line</button>
+              <div class="collapseContent">
+                <h4>No trams on this route within the next 60 minutes</h4>
+              </div>
+              <button class="collapsible" style="color:Orange;">Orange Line</button>
+              <div class="collapseContent">
+                <h4>No trams on this route within the next 60 minutes</h4>
+              </div>
+
+            </div>
+
+            <h2 align="right">Buses</h2>
+
+      <button class="collapsible">Select Route</button>
+      <div class="collapseContent">
+        <button class="collapsible" style="color:#6a5acd;">30</button>
+        <div class="collapseContent">
+          <h4><a href="index.html">Bus 30 to UTC (#ID: 18A)</a></h4>
+        </div>
+        <button class="collapsible" style="color:#6a5acd;">101</button>
+        <div class="collapseContent">
+          <<h4>No buses on this route within the next 60 minutes</h4>
+        </div>
+        <button class="collapsible" style="color:rgb(180,0,0)">150</button>
+        <div class="collapseContent">
+          <h4>No buses on this route within the next 60 minutes</h4>
+        </div>
+        <button class="collapsible" style="color:rgb(240,0,0)">201</button>
+        <div class="collapseContent">
+          <h4>No buses on this route within the next 60 minutes</h4>
+        </div>
+        <button class="collapsible" style="color:rgb(240,0,0)">202</button>
+        <div class="collapseContent">
+          <h4>No buses on this route within the next 60 minutes</h4>
+        </div>
+        <button class="collapsible" style="color:rgb(180,0,0)">237</button>
+        <div class="collapseContent">
+          <h4>No buses on this route within the next 60 minutes</h4>
+        </div>
+      </div>
+
+
+            <h3><p id="busNumber">Bus Number:</p></h3>
+            <h3><p id="lineNumber">Line Number:</p></h3>
+            <h3><p id="busDirection">To:</p></h3>
+            <h3><p id="busStop">Stop:</p></h3>
+
+
+<!--    <iframe src="mobile2.html" "width:80%" "height:40%"></iframe> -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13402.837358098492!2d-117.2382162!3d32.879409!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1548013963558" width="600" height="450" frameborder="0" style="border:0;margin-top:10px;margin-bottom:10px" allowfullscreen></iframe>
+
+    <div class="footer">
+      <a href="index.html">Switch to desktop version</a>
+      <a href="mobile.html">Switch to version 1 version</a>
+    </div>
+
+  </body>
+
+  <script src="scripts/main.js"></script>
+
+</html>
